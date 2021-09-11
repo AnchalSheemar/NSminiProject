@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!--   <meta charset="UTF-8">
+    <title>Title</title>-->
+    <link rel="stylesheet" href="newtonProject.css">
+  <!--  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script src="newtonProject.js">
+
+    </script>
+
+
+</head>
+<body>
+<div>
+<div class="navfloatleft">
+    <ul>
+    <li class="active"><a href="#about"><b style="color:black">NEWTON SCHOOL</b></a></li></div>
+    </ul>
+<!--    &lt;!&ndash;&ndash;&gt;<p>NEWTON SCHOOL</p>-->
+<div  class="navfloatright">
+
+    <ul>
+
+        <li class="lihover "   ><a id="home" onclick="home()" href="#home"><strong>HOME</strong></a></li>
+        <li class="lihover"><a id="about" href="#news" onclick="about()"><strong>ABOUT</strong></a></li>
+<!--        <li class="lihover"><a href="#contact"><strong>CONTACT</strong></a></li>-->
+        <li  class="lihover" style="float:right"><a href="#about"><b >LOGIN</b></a></li>
+    </ul>
+
+
+</div>
+</div>
+
+<div class="mainDiv">
+    <div class="floatleft">
+        <h2 style="color:white">Course Notes</h2>
+        <h4 style="color:white">Full Stack Development Course</h4>
+
+        <div class="dropdown">
+            <button class="dropbtn">HTML</button>
+            <div class="dropdown-content">
+
+               <a  id="html"  href="#"  onclick="loadPage()">Html Fundamentals</a>
+                <a id="tagsAttributes" href="#" onclick="loadPageTagsAttributes()">Tags and Attributes</a>
+              <a id="formatting" href="#" onclick="loadPageFormatting()">Formatting</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">CSS</button>
+            <div class="dropdown-content">
+                <a  id="cssIntro" href="#" onclick="cssIntro()" >CSS Introduction</a>
+                <a id="cssBackground" href="#" onclick="cssBackground()">Background</a>
+                <a id="cssBorder" href="#" onclick="cssBorder()">Borders</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">JavaScript</button>
+            <div class="dropdown-content">
+                <a id="jsIntro" href="#" onclick="jsIntro()" >JavaScript Introduction</a>
+                <a id="jsFunction" href="#" onclick="jsFunction()"> functions</a>
+                <a id="jsConst" href="#" onclick="jsConst()">const</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="floatright" id="pageContent">
+
+
+      <div class="box" id="floatrightdiv">
+          <strong>Newton School</strong> is a platform to learn and develop skills that you need for your best Tech career.
+          We boost up  your skills and prepare you for your dream job.<br>
+          We are dedicated to build and structure your tech career for
+          the dream companies worldwide based on your skills,eligibility
+          preferences and work hard with you till you get into one of yours.<br><br>
+          Let's Start Together......
+
+      </div>
+
+
+
+    </div>
+   <!-- <div style="clear: both;"></div>-->
+</div>
+
+</body>
+</html>
